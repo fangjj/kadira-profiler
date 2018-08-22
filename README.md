@@ -15,7 +15,7 @@ export KADIRA_PROFILE_LOCALLY=1
 ~~~
 
 * Then open your app in the browser and open the browser console.
-* Now invoke this command: `Kadira.profileCpu(10)`
+* Now invoke this command: `Kadira.profileCpu(10) Kadira.profileCpu(10, '/Users/jm/1.cpuprofile')`
 * It will profile your app for 10 seconds and save the profile to a temporary location.
 
 Then visit [Kadira Debug](http://debug.kadiraio.com/debug?tab=cpu-profiler) and load the saved CPU profile. 

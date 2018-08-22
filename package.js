@@ -22,9 +22,9 @@ function configurePackage(api) {
   api.use('http');
   api.use('check');
   api.use('random');
-  api.use('meteorhacks:kadira@2.22.0');
-  api.imply('meteorhacks:kadira@2.22.0');
-  api.use('meteorhacks:kadira-binary-deps@1.5.0');
+  api.use('meteorhacks:kadira@2.30.4');
+  api.imply('meteorhacks:kadira@2.30.4');
+  api.use('meteorhacks:kadira-binary-deps@1.6.0');
 
   api.add_files('lib/server.js', 'server');
   api.add_files('lib/client.js', 'client');
